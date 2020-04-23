@@ -43,7 +43,6 @@
 
         <validations.module.version>1.4.0</validations.module.version>
         <java.module.version>1.2.6</java.module.version>
-        <runtimeVersion>4.3.0-SNAPSHOT</runtimeVersion>
     </properties>
 
     <build>
@@ -93,6 +92,7 @@
                         <discoverRuntimes>
                             <product>EE</product>
                             <includeSnapshots>true</includeSnapshots>
+                            <minMuleVersion>4.3.0</minMuleVersion>
                         </discoverRuntimes>
                     </runtimeConfiguration>
                 </configuration>
